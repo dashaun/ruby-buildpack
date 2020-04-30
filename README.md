@@ -2,11 +2,18 @@
 
 Very simple ruby "cloud native buildpack"
 
-## Published
+## Publish
+
+``` 
+$ pack package-buildpack dashaun/ruby-buildpack --package-config ./package/package.toml
+Successfully created package dashaun/ruby-buildpack
+$
+```
+### Published
 
 On Docker Hub [dashaun/ruby-buildpack](https://hub.docker.com/r/dashaun/ruby-buildpack)
 
-###
+### Notes
 
 Before attempting a 'cobol-buildpack' I thought it would be a good idea to get educated.
 
